@@ -1,0 +1,9 @@
+words = ["apple", "banana", "orange", "apple", "kiwi", "pineapple", "apple"]
+
+word_input = input("Введите слово: ")
+
+if word_input in words:
+    count = words.count(word_input)
+print(f"Слово \"{word_input}\" встречается раз(а)")
+else:
+    print("<(T_T)>нету<(T_T)>")
